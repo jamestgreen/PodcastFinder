@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   get("/:name", {:controller => "pages", :action => "name"})
 
+  get("/podcast/:podcast", {:controller => "pages", :action => "podcast"})
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -4,4 +4,8 @@ class PagesController < ApplicationController
 	def name
 		@name=params[:name]
 	end
+	def podcast
+		podcast=params[:podcast]
+		@podcast=podcast.upcase
+	end
 end
